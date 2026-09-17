@@ -1,0 +1,24 @@
+{
+  "name": "offline-quiz-me",
+  "version": "1.0.0",
+  "description": "Offline study tool that generates a multiple-choice quiz from your own notes, running entirely on-device using Tether's QVAC SDK. No API key, no server, no bill.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "study-tool",
+    "quiz",
+    "offline"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.1"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+
+# QVAC on-device model cache / corestore data — regenerated locally, never commit
+.qvac/
+qvac-data/
